@@ -58,21 +58,41 @@
         <!-- Marker -->
         <a-entity mindar-image-target="targetIndex: 1">
 
-            <!-- Testobjekt
-            <a-box 
-                position="0 0 0" 
-                depth="0.5" 
-                height="0.5" 
-                width="0.5"
-                color="red"
-            >
-            </a-box> -->
-
             <!-- GLTF/GLB-Modell -->
             <a-gltf-model
                 src="./models/giraffe.glb"
                 position="0 -0.8 0"
                 scale="0.25 0.25 0.25"
+                rotation="0 0 0"
+                animation-mixer
+            >
+            </a-gltf-model>
+
+        </a-entity>
+
+        <!-- Marker -->
+        <a-entity mindar-image-target="targetIndex: 2">
+
+            <!-- GLTF/GLB-Modell -->
+            <a-gltf-model
+                src="./models/butterflies.glb"
+                position="-0.5 0 0"
+                scale="0.01 0.01 0.01"
+                rotation="0 0 0"
+                animation-mixer
+            >
+            </a-gltf-model>
+
+        </a-entity>
+
+        <!-- Marker -->
+        <a-entity mindar-image-target="targetIndex: 3">
+
+            <!-- GLTF/GLB-Modell -->
+            <a-gltf-model
+                src="./models/butterflies.glb"
+                position="-0.5 0 0"
+                scale="0.01 0.01 0.01"
                 rotation="0 0 0"
                 animation-mixer
             >
